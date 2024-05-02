@@ -8,7 +8,7 @@ def get_argument():
 
     # training setting
     parser.add_argument("--ratio", type=float, default=0.1)
-    parser.add_argument("--device", type=str, default="cuda:1")
+    parser.add_argument("--device", type=str, default="cuda:0")
     parser.add_argument("--max_epoch", type=int, default=30)
     parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--size", type=int, default=224)
