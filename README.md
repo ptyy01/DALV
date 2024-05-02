@@ -11,3 +11,6 @@ The official implementation of the paper "Domain Alignment with Large Vision-lan
 
 
 ## Data Preparing
+
+
+## Run
