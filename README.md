@@ -2,7 +2,7 @@
 
 The official implementation of the paper "Domain Alignment with Large Vision-language Models for Cross-domain Remote Sensing Image Retrieval".
 
-## The overall Framework of DALV
+## The Framework of DALV
 <p align="middle">
 <img src="pics/framework.png" width="1000">
 </p>
@@ -22,12 +22,12 @@ loguru==0.7.2
 
 ## Data Preparation
 
-### Download
+1. Download Dataset
 * [AID, UCMD, NWPU](https://github.com/GeoRSAI/PCLUDA)
 * [PatternNet](https://sites.google.com/view/zhouwx/dataset)
 * [VBing, VArcGIS](https://faculty.csu.edu.cn/houdongyang/en/zdylm/198203/list/index.htm)
 
-### File Structure
+2. Prepare File Structure
 Please put all the datasets under the ```data```. The prepared directory ```data``` would look like:
 ```
 data
@@ -53,7 +53,9 @@ data
 ├── VArcGIS/
 ```
 
-## Run
-
+## Training and Evaluation
+1. Train the model. For example, the running process on AID $\rightarrow$ UCMD (A $\rightarrow$ U) task when setting the label ratio as 0.1
+```python ```
+2. 
 
 ## Acknowledgment
