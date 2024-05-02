@@ -28,8 +28,8 @@ loguru==0.7.2
 
 2. Prepare File Structure
 
-  Please put all the datasets under the ```data```. The prepared directory ```data``` would look like:
-  ```
+* Please put all the datasets under the ```data```. The prepared directory ```data``` would look like:
+```
   data
   ├── AID
   │   ├── agricultural/
@@ -51,7 +51,7 @@ loguru==0.7.2
   │   ├── val.txt
   ├── VBing/
   ├── VArcGIS/
-  ```
+```
 
 ## Training and Testing 
 The training and testing scripts are as follows:
