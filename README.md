@@ -34,13 +34,23 @@ data
 ├── AID
 │   ├── agricultural/
 │   ├── baseball diamond/
-
-│   ├── databased.txt
+│   ├── ...
+│   ├── database.txt
 │   ├── test.txt
 │   ├── train.txt
 │   ├── val.txt
-
-├── UCMD
+├── UCMD/
+├── NWPU/
+├── PatternNet
+│   ├── airplane/
+│   ├── baseball filed/
+│   ├── ...
+│   ├── database.txt
+│   ├── test.txt
+│   ├── train.txt
+│   ├── val.txt
+├── VBing/
+├── VArcGIS/
 ```
 
 ## Run
