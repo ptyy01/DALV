@@ -55,7 +55,9 @@ data
 
 ## Training and Evaluation
 1. Train the model. For example, the running process on AID $\rightarrow$ UCMD (A $\rightarrow$ U) task when setting the label ratio as 0.1
-```python ```
-2. 
+```
+python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase train_semi --ratio 0.1
+```
+3. 
 
 ## Acknowledgment
