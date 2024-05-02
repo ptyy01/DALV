@@ -32,10 +32,14 @@ Please put all the datasets under the ```data```. The prepared directory would l
 ```
 data
 ├── AID
-│   ├── agricultural
-│   │   ├── 1.jpg
-│   ├── validation
-│   ├── test
+│   ├── agricultural/
+│   ├── baseball diamond/
+
+│   ├── databased.txt
+│   ├── test.txt
+│   ├── train.txt
+│   ├── val.txt
+
 ├── UCMD
 ```
 
