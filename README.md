@@ -67,5 +67,3 @@ python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase retrieva
 # Extracting features on AID → UCMD (A → U)
 python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase analyse
 ```
-
-## Acknowledgment
