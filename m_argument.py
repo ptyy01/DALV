@@ -10,16 +10,15 @@ def get_argument():
 
     # training setting
     parser.add_argument("--ratio", type=float, default=0.1)
-    parser.add_argument("--device", type=str, default="cuda:1")
+    parser.add_argument("--device", type=str, default="cuda:0")
     parser.add_argument("--max_epoch", type=int, default=30)
-    parser.add_argument("--warm_epoch", type=int, default=3)
     parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--size", type=int, default=224)
 
 
     # model setting
     parser.add_argument('--CLIP_Arch', type=str, default="ViT-B/32")
-    parser.add_argument("--lora_r", type=int, default=0, help="LoRA rank value, default 0 means do not use LoRA")
+    parser.add_argument("--lora_r", type=int, default=8, help="LoRA rank value, default 0 means do not use LoRA")
     parser.add_argument("--lora_all", default=False, action="store_true",
                         help="Should we use LoRA for all layers? only valid when lora_r!=0")
     parser.add_argument("--lora_lock_text", default=False, action="store_true",
