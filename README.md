@@ -53,11 +53,26 @@ data
 ├── VArcGIS/
 ```
 
-## Training and Evaluation
-1. Train the model. For example, the running process on AID $\rightarrow$ UCMD (A $\rightarrow$ U) task when setting the label ratio as 0.1
+## Training and Testing 
+The training and testing scripts are as follows:
 ```
+# the running process on AID $\rightarrow$ UCMD (A $\rightarrow$ U) task when setting the label ratio as 0.1
 python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase train_semi --ratio 0.1
+
+# the running process on AID $\rightarrow$ UCMD (A $\rightarrow$ U) task when setting the label ratio as 1.0
+python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase train_uda --ratio 0.1
+
 ```
-3. 
+
+1. Train the model. For example, :
+  ```
+  
+  ```
+
+2. 
+2. Evaluate the retrieval performance:
+   ```
+   
+   ```
 
 ## Acknowledgment
