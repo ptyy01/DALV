@@ -54,7 +54,7 @@ loguru==0.7.2
 ```
 
 ## Training and Testing 
-The training and testing scripts are as follows:
+The training and testing script examples are as follows:
 ```
 # Running process on AID → UCMD (A → U) when setting the label ratio as 0.1
 python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase train_semi --ratio 0.1
