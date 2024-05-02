@@ -58,13 +58,12 @@ The training and testing scripts are as follows:
 ```
 # Running process on AID → UCMD (A → U) when setting the label ratio as 0.1
 python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase train_semi --ratio 0.1
+python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase retrieval --ratio 0.1
 
 # Running process on AID → UCMD (A → U) when setting the label ratio as 1.0
 python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase train_uda --ratio 0.1
+python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase retrieval --ratio 0.1
 
-# Retrieval performance on AID → UCMD (A → U)
-python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase retrieval
-
-# Extracting features on AID → UCMD (A → U)
-python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase analyse
+# Extracting features on AID → UCMD (A → U) when setting the label ratio as 0.1
+python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase analyse --ratio 0.1
 ```
