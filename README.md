@@ -4,5 +4,5 @@ The official implementation of the paper "Domain Alignment with Large Vision-lan
 
 ## The overall Architecture of DALV
 <p align="middle">
-<img src="pics/framework.png" width="600">
+<img src="pics/framework.png" width="1000">
 </p>
