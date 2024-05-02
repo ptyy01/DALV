@@ -1,14 +1,14 @@
 # DALV
-
 The official implementation of the paper "Domain Alignment with Large Vision-language Models for Cross-domain Remote Sensing Image Retrieval".
+
 
 ## The Framework of DALV
 <p align="middle">
 <img src="pics/framework.png" width="1000">
 </p>
 
-## Dependencies
 
+## Dependencies
 This is the list of the main package versions required for our experiments.
 
 ```txt
@@ -21,7 +21,6 @@ loguru==0.7.2
 ```
 
 ## Data Preparation
-
 1. Download Dataset
 * [AID, UCMD, NWPU](https://github.com/GeoRSAI/PCLUDA)
 * [PatternNet](https://sites.google.com/view/zhouwx/dataset)
@@ -62,17 +61,11 @@ python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase train_se
 # the running process on AID $\rightarrow$ UCMD (A $\rightarrow$ U) task when setting the label ratio as 1.0
 python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase train_uda --ratio 0.1
 
+# the retrieval performance on AID $\rightarrow$ UCMD (A $\rightarrow$ U) task
+python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase retrieval
+
+# the extracted features on AID $\rightarrow$ UCMD (A $\rightarrow$ U) task
+python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase analyse
 ```
-
-1. Train the model. For example, :
-  ```
-  
-  ```
-
-2. 
-2. Evaluate the retrieval performance:
-   ```
-   
-   ```
 
 ## Acknowledgment
