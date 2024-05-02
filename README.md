@@ -2,7 +2,7 @@
 
 The official implementation of the paper "Domain Alignment with Large Vision-language Models for Cross-domain Remote Sensing Image Retrieval".
 
-## The overall Architecture of DALV
+## The overall Framework of DALV
 <p align="middle">
 <img src="pics/framework.png" width="1000">
 </p>
@@ -20,7 +20,17 @@ h5py==3.10.0
 loguru==0.7.2
 ```
 
-## Data Preparing
+## Data Preparation
+
+### Downloading
+* [AID, UCMD, NWPU](https://github.com/GeoRSAI/PCLUDA)
+* [PatternNet](https://sites.google.com/view/zhouwx/dataset)
+* [VBing, VArcGIS](https://faculty.csu.edu.cn/houdongyang/en/zdylm/198203/list/index.htm)
+
+### File Structure
 
 
 ## Run
+
+
+## Acknowledgment
