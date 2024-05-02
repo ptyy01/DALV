@@ -1,5 +1,5 @@
 # DALV
 
-The official implementation of the paper "Adaptive Message Passing Mechanism for Graph Neural Networks".
+The official implementation of the paper "Domain Alignment with Large Vision-language Models for Cross-domain Remote Sensing Image Retrieval".
 
-DAVL DAVL DAVL
+## The overall Architecture of DALV
