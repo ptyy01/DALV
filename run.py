@@ -70,7 +70,6 @@ def training_stage_semi(train_loader, model, pred_source_labels, pred_target_lab
 
         ent_loss = ent_criterion(img_features, source_centroids, txt_features)
 
-        # all
         loss = args.lambda_1 * s2centroid_loss + args.lambda_2 * t2centroid_loss + args.lambda_3 * s2text_loss + args.lambda_4 * t2text_loss + args.lambda_5 * disc_loss + args.lambda_6 * ent_loss
 
         optimizer.zero_grad()
