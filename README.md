@@ -28,31 +28,31 @@ loguru==0.7.2
 
 2. Prepare File Structure
 
-Please put all the datasets under the ```data```. The prepared directory ```data``` would look like:
+  Please put all the datasets under the ```data```. The prepared directory ```data``` would look like:
 
-```
-data
-├── AID
-│   ├── agricultural/
-│   ├── baseball diamond/
-│   ├── ...
-│   ├── database.txt
-│   ├── test.txt
-│   ├── train.txt
-│   ├── val.txt
-├── UCMD/
-├── NWPU/
-├── PatternNet
-│   ├── airplane/
-│   ├── baseball filed/
-│   ├── ...
-│   ├── database.txt
-│   ├── test.txt
-│   ├── train.txt
-│   ├── val.txt
-├── VBing/
-├── VArcGIS/
-```
+  ```
+  data
+  ├── AID
+  │   ├── agricultural/
+  │   ├── baseball diamond/
+  │   ├── ...
+  │   ├── database.txt
+  │   ├── test.txt
+  │   ├── train.txt
+  │   ├── val.txt
+  ├── UCMD/
+  ├── NWPU/
+  ├── PatternNet
+  │   ├── airplane/
+  │   ├── baseball filed/
+  │   ├── ...
+  │   ├── database.txt
+  │   ├── test.txt
+  │   ├── train.txt
+  │   ├── val.txt
+  ├── VBing/
+  ├── VArcGIS/
+  ```
 
 ## Training and Testing 
 The training and testing scripts are as follows:
