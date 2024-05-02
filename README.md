@@ -55,16 +55,16 @@ data
 ## Training and Testing 
 The training and testing scripts are as follows:
 ```
-# the running process on AID $\rightarrow$ UCMD (A $\rightarrow$ U) task when setting the label ratio as 0.1
+# the running process on AID → UCMD (A → U) task when setting the label ratio as 0.1
 python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase train_semi --ratio 0.1
 
-# the running process on AID $\rightarrow$ UCMD (A $\rightarrow$ U) task when setting the label ratio as 1.0
+# the running process on AID → UCMD (A → U) task when setting the label ratio as 1.0
 python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase train_uda --ratio 0.1
 
-# the retrieval performance on AID $\rightarrow$ UCMD (A $\rightarrow$ U) task
+# the retrieval performance on AID → UCMD (A → U) task
 python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase retrieval
 
-# the extracted features on AID $\rightarrow$ UCMD (A $\rightarrow$ U) task
+# the extracted features on AID → UCMD (A → U) task
 python run.py --dataset_mode AID_UCMD --log_dir logs --lora_all --phase analyse
 ```
 
