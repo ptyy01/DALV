@@ -30,7 +30,13 @@ loguru==0.7.2
 ### File Structure
 Please put all the datasets under the ```data```. The prepared directory would look like:
 ```
-
+data
+├── AID
+│   ├── agricultural
+│   │   ├── 1.jpg
+│   ├── validation
+│   ├── test
+├── UCMD
 ```
 
 ## Run
