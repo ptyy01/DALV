@@ -1,5 +1,5 @@
 # DALV
-The official implementation of the paper "Domain Alignment with Large Vision-language Models for Cross-domain Remote Sensing Image Retrieval".
+The official implementation of the paper "[Domain Alignment with Large Vision-language Models for Cross-domain Remote Sensing Image Retrieval](https://dl.acm.org/doi/10.1145/3627673.3679612)".
 
 
 ## The Framework of DALV
